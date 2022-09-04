@@ -1,0 +1,61 @@
+/* .containerGrid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
+    border: solid 1px black;
+    grid-auto-flow: column;
+}
+.containerGrid > div {
+    border: solid 1px black;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+/* новый пример с fr */
+/* .containerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: solid 1px black;
+    grid-auto-flow: column;
+}
+.containerGrid > div {
+    border: solid 1px black;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+/* .containerGrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    border: solid 1px black;
+    grid-auto-flow: column;
+}
+.containerGrid > div {
+    border: solid 1px black;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+.containerGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2, 3fr) 1fr 1fr;
+    border: solid 1px black;
+    grid-auto-flow: column;
+}
+.containerGrid > div {
+    border: solid 1px black;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

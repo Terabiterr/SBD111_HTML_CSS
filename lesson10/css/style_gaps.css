@@ -1,0 +1,26 @@
+.containerGrid {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 3fr;
+    grid-template-rows: repeat(1, 1fr) 1fr 1fr;
+    border: 1px solid black;
+    grid-gap: 10px;
+}
+.containerGrid > div {
+    border: 1px solid black;
+}
+.block1 {
+    height: 250px;
+    width: 250px;
+    background-color: blueviolet;
+}
+.block2 {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(52, 226, 43);
+}
+.block3 {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(226, 43, 183);
+}
